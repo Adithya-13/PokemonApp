@@ -42,4 +42,9 @@ class FavoriteActivity : AppCompatActivity() {
         return false
     }
 
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return false
+    }
+
 }
